@@ -100,7 +100,7 @@ spec:
         pathType: ImplementationSpecific
         backend:
           service:
-            name: proxy-to-httpbin
+            name: httpbin
             port:
               number: 80
 " | kubectl apply -f -
